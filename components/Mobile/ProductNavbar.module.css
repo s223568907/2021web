@@ -1,0 +1,86 @@
+.nav {
+  width: 100%;
+  height: 66px;
+  background-color: white;
+  color: #1373e6;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+  margin: 2%;
+  width: 168px;
+  flex-shrink: 0;
+}
+
+.list {
+  width: 460px;
+  height: 100%;
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  position: relative;
+}
+.button {
+  width: 460px;
+  height: 100%;
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+  transition-duration: 200ms;
+}
+
+.button:hover {
+  background-color: #1373e6;
+  color: white;
+  transition: transform 0.3s ease;
+}
+.product {
+  font-weight: 700;
+  left: 13.5%;
+  width: 112px;
+  flex-shrink: 0;
+}
+.shape {
+  background-color: #1373e6;
+  width: 1.25px;
+  height: 70%;
+  margin: auto 8px;
+}
+.notify {
+  width: 800px;
+  height: 100%;
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+  transition-duration: 200ms;
+  color: gray;
+}
+.notify:hover {
+  background-color: #1373e6;
+  color: white;
+  transition: transform 0.3s ease;
+}
+.move {
+  height: 4px;
+  width: 70.16px;
+  border-top: 4px solid #1373e6; /*只需要将上边显示出来*/
+  position: absolute;
+  left: 18.75%; /*初始1.25% 右移一位17.5%*/
+  top: 52px;
+  margin: 0px;
+  transition: left 0.1s ease-in-out 0s; /*包含四个过度属性：执行变换属性、执行时间、速率、延迟*/
+  -webkit-transition: left 0.2s ease-in-out 0s; /*chrome和safari*/
+  -moz-transition: left 0.2s ease-in-out 0s; /*firefox*/
+  -o-transition: left 0.2s ease-in-out 0s; /*opera*/
+  border-radius: 3px;
+}

@@ -1,0 +1,20 @@
+.phonemain {
+  width: 428px;
+  height: 914px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.phonemain .bigmobileicon {
+  position: relative;
+  top: 97px;
+  left: 43px;
+}
+.phonemain .runner {
+  margin-top: 200px;
+}
+.downloadButton {
+  margin: -19px 114px 0 114px;
+}
+.compatibleOS {
+  margin: 91px 138px 80px 138px;
+}

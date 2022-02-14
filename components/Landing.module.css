@@ -1,0 +1,69 @@
+.root {
+  width: 100%;
+  height: calc(85vh - 56px);
+  min-height: 40vw;
+}
+
+.picContainer {
+  width: 0;
+  height: 0;
+  position: relative;
+}
+
+.slogan {
+  transform: translate(6.25vw, 0);
+}
+
+.organization {
+  transform: translate(87.75vw, 6vw);
+}
+
+.gravitation {
+  left: 6.25vw;
+  top: calc(100% - 8vw);
+}
+
+.activity_1 {
+  transform: rotate(-7.5deg);
+  left: calc(32% - 20vw);
+  top: calc(48% - 8vw);
+  z-index: 2;
+}
+
+.activity_1 :hover {
+  transform: rotate(5deg);
+  transition: all 0.3s ease;
+}
+
+.activity_2 {
+  transform: rotate(7.5deg);
+  left: calc(60% - 10vw);
+  top: calc(35% - 10vw);
+}
+.activity_2 > img {
+  transform-origin: left bottom;
+}
+
+.activity_2 :hover {
+  transform: rotate(-5deg);
+  transition: all 0.3s ease;
+}
+
+.activity_3 {
+  transform: rotate(7.5deg);
+  left: calc(68% - 20vw);
+  top: calc(55% - 8vw);
+  z-index: 1;
+}
+.activity_3 > img {
+  transform-origin: top right;
+}
+
+.activity_3 :hover {
+  transform: rotate(-5deg);
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  /* 手机端样式 */
+}

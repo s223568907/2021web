@@ -1,0 +1,12 @@
+.wrapper {
+  max-width: 428px;
+  min-width: 428px;
+  background-color: #f9f9f9f9;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.wrapper > div {
+  max-width: 428px;
+  min-width: 428px;
+  /* overflow: hidden; */
+}

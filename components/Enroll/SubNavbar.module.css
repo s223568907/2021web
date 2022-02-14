@@ -1,0 +1,59 @@
+.SubNavbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 49px;
+  background-color: white;
+}
+.logo {
+  display: inline;
+  position: absolute;
+  height: 24px;
+  left: 75px;
+  top: 13px;
+}
+.title {
+  display: inline;
+  position: absolute;
+  left: 117px;
+  top: 13.5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 23px;
+  color: #1373e6;
+  /* letter-spacing: 0.05em; */
+}
+.about {
+  display: inline;
+  position: absolute;
+  top: 18px;
+  right: 191px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1373e6;
+}
+.feedback {
+  display: inline;
+  position: absolute;
+  top: 18px;
+  right: 139px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1373e6;
+}
+.download {
+  display: inline;
+  position: absolute;
+  top: 13px;
+  right: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  color: white;
+  width: 71px;
+  height: 26px;
+  background-color: #ff4b00;
+  border-radius: 10px;
+  text-align: center;
+}

@@ -1,0 +1,94 @@
+.pages {
+  margin: 192px 0;
+}
+
+.videos {
+  position: relative;
+  width: 960px;
+  margin: auto;
+}
+
+.video {
+  position: relative;
+  width: 560px;
+  height: 250px;
+  background-color: white;
+  margin: 16px 0;
+}
+
+.icon {
+  width: 36px;
+  margin: 24px 0 0 32px;
+}
+
+.image {
+  position: absolute;
+  height: 250px;
+  left: 490px;
+  opacity: 0;
+}
+
+.title {
+  position: relative;
+  color: #1373e6;
+  font-size: 32px;
+  height: 32px;
+  font-weight: 600;
+  top: 32px;
+  left: 32px;
+}
+
+.list {
+  margin-left: 32px;
+  font-size: 14px;
+  line-height: 2em;
+  color: white;
+}
+
+.more {
+  position: relative;
+  color: white;
+  left: 400px;
+  bottom: -24px;
+}
+
+.logo {
+  position: absolute;
+  width: 180px;
+  left: -45px;
+  bottom: -45px;
+  transform: rotate(15deg);
+}
+
+.video:hover {
+  width: 900px;
+  background-color: #1373e6;
+  transition: width 0.3s ease;
+}
+.video:hover .image {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.video:hover .title {
+  color: white;
+  transform: translate(-16px, -64px);
+  transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .videos {
+    width: 768px;
+  }
+  .logo {
+    left: 45px;
+  }
+  .video {
+    margin: 16px auto;
+  }
+  .image {
+    display: none;
+  }
+  .video:hover {
+    width: 560px;
+  }
+}

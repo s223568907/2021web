@@ -1,0 +1,84 @@
+.outliner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 120px;
+  /* height: 350px; */ /* auto */
+
+  position: fixed;
+  position: -webkit-sticky; /* For Safari */
+  right: 60px;
+  bottom: 165px;
+  overflow: auto;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 40px rgba(19, 115, 230, 0.05);
+  border-radius: 10px;
+}
+
+.outliner ul {
+  /* clear the original style */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.outliner ul li {
+  /* clear the original style */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  cursor: pointer; /* clickable */
+
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.outliner .toTop {
+  display: flex;
+  justify-content: space-around;
+  height: 63px;
+  width: 100%;
+
+  cursor: pointer; /* clickable */
+  background: #e7f1fc;
+  backdrop-filter: blur(4px);
+  border-radius: 0 0 10px 10px;
+}
+
+.outliner .toTop div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .outliner {
+    display: none;
+  }
+}
+
+.outliner ul li:hover {
+  color: #1373e6;
+}
+
+/* 
+
+And put this in global (don't know why)
+
+ul li.active > a {
+  color: #1373E6;
+}
+
+*/

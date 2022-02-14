@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    rgb(91, 144, 222),
+    rgb(147, 182, 233),
+    rgb(163, 193, 236)
+  );
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    min-width: none;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul li.active > a {
+  color: #1373E6;
+}
+.color0 {
+  background-color: #69A04A;
+}
+.color1 {
+  background-color: #7C8390;
+}
+.color2 {
+  background-color: #8D73BC;
+}
+.color3 {
+  background-color: #678CBF;
+}
+.color4 {
+  background-color: #D8793D;
+}
+.color5 {
+  background-color: #DE7090;
+}

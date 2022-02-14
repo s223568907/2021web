@@ -1,0 +1,105 @@
+.switch {
+  background-color: #f9f9f9;
+}
+
+.leadIn {
+  font-family: OPPOSans;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  margin-bottom: 5px;
+}
+.subheading {
+  color: #626262;
+}
+/*切换部分主体*/
+.Slider {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  height: 808px;
+}
+.Slider > div {
+  margin: 25px;
+}
+.gif {
+  position: relative;
+  width: 223.26px;
+  height: 475px;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+}
+.transparency {
+  opacity: 25%;
+}
+/*把原先包里提供的左右箭头去掉*/
+.arrows {
+  visibility: hidden;
+}
+.leftButton,
+.rightButton {
+  position: relative;
+  top: -1000%;
+  visibility: visible;
+  cursor: pointer;
+  height: 86px;
+}
+.leftButton {
+  float: right;
+  transform: rotate(0.5turn);
+}
+.back {
+  transition: all 0.5s ease;
+}
+.leftButton:hover .back,
+.rightButton:hover .back {
+  fill: #ffffff;
+  transition: all 0.5s ease;
+}
+.typeChange {
+  width: 200px;
+  position: relative;
+  left: 250px;
+  display: flex;
+  align-items: baseline;
+  font-family: OPPOSans;
+  font-size: larger;
+}
+.Android,
+.iOS,
+.AndroidActive,
+.iOSActive {
+  height: 30px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+.AndroidActive {
+  color: #ff4b00;
+}
+.iOSActive {
+  color: #1373e6;
+}
+.index {
+  font-family: OPPOSans;
+  position: relative;
+  top: -310px;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 999;
+}
+.desc {
+  font-family: OPPOSans;
+  background-color: #ffffff;
+  width: 308px;
+  height: 96.1px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 50px;
+  padding: 25px;
+  box-shadow: 0px 2px 2px #f3f3f3;
+}

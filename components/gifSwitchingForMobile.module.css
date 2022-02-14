@@ -1,0 +1,89 @@
+.leadIn {
+  font-family: OPPOSans;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  margin-bottom: 5px;
+}
+/*切换部分主体*/
+.Slider {
+  position: relative;
+  width: 433px;
+  height: 804px;
+  /* left: 36%; */
+  height: 808px;
+}
+.Slider > div {
+  margin: 25px;
+}
+.gif {
+  position: relative;
+  width: 223.26px;
+  height: 475px;
+  margin: 0 auto;
+}
+/*把原先包里提供的左右箭头去掉*/
+.arrows {
+  visibility: hidden;
+  z-index: 10;
+}
+.leftButton {
+  position: relative;
+  top: -1000%;
+  visibility: visible;
+  cursor: pointer;
+  left: 80px;
+  height: 86px;
+}
+.rightButton {
+  position: relative;
+  top: calc(-1000% - 5px);
+  visibility: visible;
+  cursor: pointer;
+  right: 82px;
+  height: 86px;
+}
+.leftButton {
+  float: right;
+  transform: rotate(0.5turn);
+}
+.back {
+  transition: all 0.5s ease;
+}
+.leftButton:hover .back,
+.rightButton:hover .back {
+  fill: #ffffff;
+  transition: all 0.5s ease;
+}
+.typeChange {
+  width: 200px;
+  margin: 0 auto;
+  font-family: OPPOSans;
+  color: #626262;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.index {
+  font-family: OPPOSans;
+  position: relative;
+  top: -310px;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 999;
+}
+.desc {
+  font-family: OPPOSans;
+  background-color: #ffffff;
+  width: 308px;
+  height: 96.1px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 50px;
+  padding: 25px;
+  box-shadow: 0px 2px 2px #f3f3f3;
+}

@@ -1,0 +1,75 @@
+.navbar {
+  position: relative;
+  margin: 0 auto;
+  height: 58px;
+  width: 428px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.qscicon {
+  align-self: flex-start;
+  margin: 0 2px;
+}
+.menuicon {
+  align-self: flex-end;
+  margin: auto 0;
+  margin-right: 10px;
+}
+@keyframes meunframe-down {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 448px;
+  }
+}
+
+.detaillist {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 428px;
+  height: 448px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  overflow: hidden;
+  z-index: 1000;
+  animation-name: meunframe-down;
+  animation-duration: 0.6s;
+}
+.detaillist .item {
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+.item > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10px 0 15px 0; */
+  color: #8bb0e6;
+}
+
+.linklist {
+  width: 100%;
+  flex-direction: column;
+  /* margin-bottom: 10px; */
+}
+.linklistitem {
+  margin-left: 20px;
+  line-height: 2em;
+  color: #ff4b00;
+}
+
+.toTop {
+  z-index: 999;
+  position: fixed;
+  left: calc(50% - 214px + 20px);
+  bottom: 40px;
+}
